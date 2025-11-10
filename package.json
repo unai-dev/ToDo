@@ -5,11 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "/functions/app"
+    "start": "node functions/index.js"
   },
   "author": "Unai Villar",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1"
+  },
+  "devDependencies": {
     "jest": "^30.2.0"
   }
 }
